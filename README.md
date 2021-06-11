@@ -1,9 +1,11 @@
 
 This program processes avro, csv, and json files of the same schema.  It combines and deduplicates one or more files and returns some calculations as well as the final dataset.  It was written in Python using pandas and fastavro then compiled with pyinstaller.
 	
-Usage: Download the executable and run the file_proc with the filenames as arguments.  Ex:
+Usage: Download the executable and run the file_proc from your terminal.  When prompted, enter the path to each file separated by spaces.  Ex:
   
-  `file_proc CityList.csv CityListA.json CityListB.avro`
+  `file_proc` 
+  `Enter filenames separated by space`
+  `CityList.csv CityListA.json CityListB.avro`
  
 Remember to chmod+x and allow unidentified developers to run on a mac. It takes a few seconds to show progress.
 
