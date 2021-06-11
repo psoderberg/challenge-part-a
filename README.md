@@ -4,7 +4,9 @@ This program processes avro, csv, and json files of the same schema.  It combine
 Usage: Download the executable and run the file_proc from your terminal.  When prompted, enter the path to each file separated by spaces.  Ex:
   
   `file_proc` 
+  
   `Enter filenames separated by space`
+  
   `CityList.csv CityListA.json CityListB.avro`
  
 Remember to chmod+x and allow unidentified developers to run on a mac. It takes a few seconds to show progress.
